@@ -1,0 +1,29 @@
+# Site settings
+title: Android
+mobile_title: Android
+description: Introducing Lollipop, a sweet new take on Android.
+baseurl: ""
+url: https://example.com
+email: your-email@domain.com
+lang: en
+google_analytics: UA-XXXXX-X
+
+# Where things are
+source: src
+destination: app
+
+# Handling Reading
+encoding: "utf-8"
+markdown_ext: "md"
+
+# Plugins
+# gems:
+#   - jekyll-feed
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+
+# Outputting
+permalink: pretty
+timezone: Europe/Madrid

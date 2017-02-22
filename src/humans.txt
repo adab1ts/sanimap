@@ -1,0 +1,15 @@
+/* TEAM */
+	Web designer: Klaudia Alvarez
+	Contact: klaudia [at] adabits.org
+	From: Barcelona, Catalonia, Spain
+
+	Web developer: Carles Muiños
+  Contact: carles [at] adabits.org
+	From: Barcelona, Catalonia, Spain
+
+/* SITE */
+  Last update: 2017/03/15
+  Language: Català
+  Standards: HTML5, CSS3, ES6
+  Components: WSK, MDL
+  Software: Jekyll

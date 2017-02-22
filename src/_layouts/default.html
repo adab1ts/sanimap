@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "ca" }}">
+  {% include head.html %}
+  <body>
+    <!-- Add your site or app content here -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      {% include header.html %}
+      {% include sidenav.html %}
+      <div class="android-content mdl-layout__content">
+      {{ content }}
+      {% include footer.html %}
+      <div>
+    </div>
+    <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/android-dot-com/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
+
+    {% include scripts.html %}
+    {% if jekyll.environment == "production" and site.google_analytics %}
+    {% include google-analytics.html %}
+    {% endif %}
+    <!-- Built with love using Web Starter Kit -->
+  </body>
+</html>

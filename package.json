@@ -22,9 +22,12 @@
   },
   "private": true,
   "scripts": {
-    "start": "gulp serve",
     "lint": "gulp lint",
+    "start": "bundle exec jekyll serve",
+    "build:dev": "JEKYLL_ENV=production bundle exec jekyll build",
+    "prebuild": "yarn run build:dev",
     "build": "gulp",
+    "preserve:prod": "yarn run build:dev",
     "serve:prod": "gulp serve:dist",
     "pagespeed": "gulp pagespeed",
     "precommit": "yarn run lint"

@@ -1,4 +1,7 @@
-node_modules
+.tmp/
+.jekyll-metadata
+.sass-cache
+app/
 dist/
-.tmp
+node_modules/
 app.yaml
