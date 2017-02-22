@@ -5,7 +5,7 @@
   "keywords": [
     "wsk",
     "mdl",
-    "es2015",
+    "es6",
     "babel",
     "gulp"
   ],
@@ -22,12 +22,14 @@
   },
   "private": true,
   "scripts": {
-    "lint": "gulp lint",
+    "lint:scripts": "gulp lint",
+    "lint:styles": "stylelint 'src/**/*.css' -q",
+    "lint": "yarn run lint:scripts && yarn run lint:styles",
     "start": "bundle exec jekyll serve",
-    "build:dev": "JEKYLL_ENV=production bundle exec jekyll build",
-    "prebuild": "yarn run build:dev",
+    "build:src": "JEKYLL_ENV=production bundle exec jekyll build",
+    "prebuild": "yarn run build:src",
     "build": "gulp",
-    "preserve:prod": "yarn run build:dev",
+    "preserve:prod": "yarn run build:src",
     "serve:prod": "gulp serve:dist",
     "pagespeed": "gulp pagespeed",
     "precommit": "yarn run lint"
@@ -59,10 +61,15 @@
     "husky": "^0.13.1",
     "psi": "^2.0.4",
     "run-sequence": "^1.0.1",
+    "stylelint": "^7.9.0",
+    "stylelint-config-standard": "^16.0.0",
     "sw-precache": "^3.2.0",
     "sw-toolbox": "^3.2.1"
   },
   "eslintConfig": {
     "extends": "google"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
   }
 }
