@@ -22,6 +22,7 @@
   },
   "private": true,
   "scripts": {
+    "clean": "rimraf app dist",
     "lint:scripts": "gulp lint",
     "lint:styles": "stylelint 'src/**/*.css' -q",
     "lint": "yarn run lint:scripts && yarn run lint:styles",
@@ -60,6 +61,7 @@
     "gulp-useref": "^3.1.0",
     "husky": "^0.13.1",
     "psi": "^2.0.4",
+    "rimraf": "^2.6.0",
     "run-sequence": "^1.0.1",
     "stylelint": "^7.9.0",
     "stylelint-config-standard": "^16.0.0",
