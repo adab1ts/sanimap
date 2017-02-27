@@ -14,7 +14,18 @@ destination: app
 
 # Collections
 collections:
-  - home
+  casos:
+    output: true
+    permalink: /:collection/:title.html
+  home:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: "casos"
+    values:
+      layout: "cas"
 
 # Handling Reading
 encoding: "utf-8"
