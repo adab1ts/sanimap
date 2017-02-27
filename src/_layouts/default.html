@@ -1,21 +1,21 @@
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: "ca" }}">
-  {% include head.html %}
+  {% include shared/head.html %}
   <body>
     <!-- Add your site or app content here -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-      {% include header.html %}
-      {% include sidenav.html %}
+      {% include shared/header.html %}
+      {% include shared/sidenav.html %}
       <div class="a1-content mdl-layout__content">
       {{ content }}
-      {% include footer.html %}
+      {% include shared/footer.html %}
     </div>
     </div>
 
-    {% include scripts.html %}
+    {% include shared/scripts.html %}
     {% if jekyll.environment == "production" and site.google_analytics %}
-    {% include google-analytics.html %}
+    {% include shared/google-analytics.html %}
     {% endif %}
     <!-- Built with love using Web Starter Kit -->
   </body>
