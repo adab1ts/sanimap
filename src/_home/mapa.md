@@ -7,6 +7,6 @@ include: home/mapa.html
 
 slogan: "be together. not the same."
 sub-slogan: "welcome to android... be yourself. do your thing. see what's going on."
-image_path: images/andy.png
+image: andy.png
 ---
 create your android character

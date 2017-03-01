@@ -7,7 +7,7 @@ include: home/casos-destacats.html
 # Set variables
 slogan: "More from Android"
 sub-slogan: "lerelewelcome to android... be yourself. do your thing. see what's going on."
-image_path: images/andy.png
+image: andy.png
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 

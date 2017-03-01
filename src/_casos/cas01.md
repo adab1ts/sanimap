@@ -1,6 +1,6 @@
 ---
 title: "Cas 1"
-image_path: images/more-from-1.png
+image: more-from-1.png
 order: 1
 ---
 # How to install MDL

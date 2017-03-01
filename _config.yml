@@ -11,6 +11,9 @@ google_analytics: UA-XXXXX-X
 # Where things are
 source: src
 destination: app
+images_path: images
+scripts_path: scripts
+styles_path: styles
 
 # Collections
 collections:
