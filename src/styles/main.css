@@ -65,17 +65,26 @@ a img {
 }
 
 .a1-logo-image {
-  height: 28px;
-  width: 140px;
+  height: 35px;
+  width: 35px;
 }
 
 .a1-header {
   overflow: visible;
   background-color: white;
+  color: blue;
+}
+
+.a1-header span {
+  padding-right: 25px;
 }
 
 .a1-header .material-icons {
   color: #767777 !important;
+}
+
+.a1-social {
+  padding-left: 10px;
 }
 
 .a1-header .mdl-layout__drawer-button {
@@ -143,6 +152,10 @@ a img {
 
 .a1-drawer {
   border-right: none;
+}
+
+.a1-drawer h5 {
+  padding-right: 10px;
 }
 
 .a1-drawer-separator {
