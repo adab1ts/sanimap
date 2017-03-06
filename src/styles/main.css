@@ -29,17 +29,13 @@ a img {
 }
 
 ::-moz-selection {
-  background-color: rgb(33, 150, 243);
-  color: #fff;
+  background-color: rgb(0,150,136) !important;
+  color: white;
 }
 
 ::selection {
-  background-color: rgb(33, 150, 243);
-  color: #fff;
-}
-
-.a1-search-box .mdl-textfield__input {
-  color: rgba(0, 0, 0, 0.87);
+  background-color: rgb(0,150,136) !important;
+  color: white;
 }
 
 .a1-header .mdl-menu__container {
@@ -47,17 +43,11 @@ a img {
   margin: 0 !important;
 }
 
-.mdl-textfield--expandable {
-  width: auto;
-}
-
 .a1-fab {
   position: absolute;
   right: 20%;
   bottom: -26px;
   z-index: 3;
-  background: rgb(24, 255, 255) !important;
-  color: black !important;
 }
 
 .a1-mobile-title {
@@ -72,7 +62,7 @@ a img {
 .a1-header {
   overflow: visible;
   background-color: white;
-  color: rgb(33, 150, 243);
+  color: rgb(0,150,136);
 }
 
 .a1-header span {
@@ -88,66 +78,8 @@ a img {
 }
 
 .a1-header .mdl-layout__drawer-button {
-  background: transparent;
+  background: white;
   color: #424242;
-}
-
-.a1-header .mdl-navigation__link {
-  color: #424242;
-  font-weight: 700;
-  font-size: 14px;
-}
-
-.a1-navigation-container {
-  /* Simple hack to make the overflow happen to the left instead... */
-  direction: rtl;
-  -webkit-order: 1;
-  -ms-flex-order: 1;
-  order: 1;
-  width: 500px;
-  transition:
-    opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
-    width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.a1-navigation {
-  /* ... and now make sure the content is actually LTR */
-  direction: ltr;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  width: 800px;
-}
-
-.a1-search-box.is-focused + .a1-navigation-container {
-  opacity: 0;
-  width: 100px;
-}
-
-.a1-navigation .mdl-navigation__link {
-  display: inline-block;
-  height: 60px;
-  line-height: 68px;
-  background-color: transparent !important;
-  border-bottom: 4px solid transparent;
-}
-
-.a1-navigation .mdl-navigation__link:hover {
-  border-bottom: 4px solid rgb(33, 150, 243);
-}
-
-.a1-search-box {
-  -webkit-order: 2;
-  -ms-flex-order: 2;
-  order: 2;
-  margin-left: 16px;
-  margin-right: 16px;
-}
-
-.a1-more-button {
-  -webkit-order: 3;
-  -ms-flex-order: 3;
-  order: 3;
 }
 
 .a1-drawer {
@@ -169,26 +101,108 @@ a img {
   color: #424242;
 }
 
-.a1-drawer span.mdl-navigation__link.mdl-navigation__link {
-  color: rgb(33, 150, 243);
-}
-
 .a1-drawer .mdl-layout-title {
   position: relative;
-  background: rgb(33, 150, 243);
+  background: rgb(0,150,136);
+  color: white;
   height: 160px;
 }
 
 .a1-drawer .a1-logo-image {
   position: absolute;
-  bottom: 16px;
+  top: 16px;
 }
 
-.a1-be-together-section {
+.a1-drawer h5 {
+  position: absolute;
+  top: 56px;
+}
+
+.a1-link {
+  text-decoration: none;
+}
+
+.a1-link:hover {
+  color: rgb(0, 220, 200) !important;
+  background: #dcdcdc !important;
+}
+
+.a1-link .material-icons {
+  position: relative;
+  top: -1px;
+  vertical-align: middle;
+}
+
+.a1-alt-link {
+  text-decoration: none;
+  color: rgb(0,150,136) !important;
+  font-size: 16px;
+}
+
+.a1-alt-link:hover {
+  background: rgb(0, 220, 200) !important;
+  color: #dcdcdc !important;
+}
+
+.a1-alt-link .material-icons {
+  position: relative;
+  top: 6px;
+}
+
+.a1-link-menu:hover {
+  cursor: pointer;
+}
+
+.mdl-button{
+  background: rgb(64,196,255);
+  color: white;
+}
+
+.a1-footer {
+  position: relative;
+}
+
+.a1-footer .a1-link {
+  text-decoration: none;
+  color: #dcdcdc !important;
+}
+
+.a1-footer a:hover {
+  color: rgb(0, 220, 200);
+}
+
+.a1-footer .mdl-mega-footer--top-section::after {
+  border-bottom: none;
+}
+
+.a1-footer .mdl-mega-footer--middle-section::after {
+  border-bottom: none;
+}
+
+.a1-footer .mdl-mega-footer--bottom-section {
+  position: relative;
+}
+
+.a1-footer .mdl-mega-footer--bottom-section a {
+  margin-right: 2em;
+}
+
+.a1-footer .mdl-mega-footer--right-section a .material-icons {
+  position: relative;
+  top: 6px;
+}
+
+/**
+ * HOME STYLES
+ */
+
+/* Hero section */
+
+.a1-hero-section {
   position: relative;
   height: 800px;
   width: auto;
-  background-color: #f3f3f3;
+  background-color: rgb(0,150,136);
   /* stylelint-disable-next-line declaration-block-no-shorthand-property-overrides */
   background: url('../images/slide01.jpg') center 30% no-repeat;
   background-size: cover;
@@ -218,11 +232,76 @@ a img {
 
 .a1-create-character a {
   text-decoration: none;
-  color: #424242;
+  /* color: #424242; */
   font-weight: 300;
 }
 
-.a1-screen-section {
+/* Casos section */
+
+.a1-casos {
+  padding: 0px 0;
+  background: rgb(250, 250, 250);
+}
+
+.a1-casos-section {
+  padding: 80px 0;
+  max-width: 1044px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(250, 250, 250);
+}
+
+.a1-casos-section .a1-section-title {
+  margin-left: 12px;
+  padding-bottom: 24px;
+}
+
+.a1-card-container .mdl-card__media {
+  overflow: hidden;
+  background: transparent;
+}
+
+.a1-card-container .mdl-card__media img {
+  width: 100%;
+}
+
+.a1-card-container .mdl-card__title {
+  background: transparent;
+  height: auto;
+  padding-bottom: 0px;
+}
+
+.a1-card-container .mdl-card__title-text {
+  height: auto;
+}
+
+.a1-card-container h3 {
+  font-size: 1.5em;
+  color: rgb(0,150,136);
+}
+
+.a1-card-container h5 {
+  font-size: 1.5em;
+}
+
+.a1-card-container .mdl-card__supporting-text {
+  height: auto;
+  padding-bottom: 56px;
+}
+
+.a1-card-container .mdl-card__actions {
+  position: absolute;
+  bottom: 0;
+}
+
+.a1-card-container .mdl-card__actions a {
+  border-top: none;
+  font-size: 16px;
+}
+
+/* Patrocinadors section */
+
+.a1-patrocinadors-section {
   position: relative;
   padding-top: 60px;
   padding-bottom: 80px;
@@ -310,175 +389,8 @@ a img {
   z-index: 1;
 }
 
-.a1-wear-section {
-  position: relative;
-  background: url('../images/wear.png') center top no-repeat;
-  background-size: cover;
-  height: 800px;
-}
-
-.a1-wear-band {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  background-color: #37474f;
-}
-
-.a1-wear-band-text {
-  max-width: 800px;
-  margin-left: 25%;
-  padding: 24px;
-  text-align: left;
-  color: white;
-}
-
-.a1-wear-band-text p {
-  padding-top: 8px;
-}
-
-.a1-link {
-  text-decoration: none;
-  color: rgb(33, 150, 243) !important;
-}
-
-.a1-link:hover {
-  color: rgb(24, 255, 255) !important;
-}
-
-.a1-link .material-icons {
-  position: relative;
-  top: -1px;
-  vertical-align: middle;
-}
-
-.a1-alt-link {
-  text-decoration: none;
-  color: rgb(24, 255, 255) !important;
-  font-size: 16px;
-}
-
-.a1-alt-link:hover {
-  color: rgb(24, 255, 255) !important;
-}
-
-.a1-alt-link .material-icons {
-  position: relative;
-  top: 6px;
-}
-
-.a1-customized-section {
-  text-align: center;
-}
-
-.a1-customized-section-text {
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 80px 16px 0;
-}
-
-.a1-customized-section-text p {
-  padding-top: 16px;
-}
-
-.a1-customized-section-image {
-  background: url('../images/devices.jpg') center top no-repeat;
-  background-size: cover;
-  height: 400px;
-}
-
-.a1-more-section {
-  padding: 80px 0;
-  max-width: 1044px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.a1-more-section .a1-section-title {
-  margin-left: 12px;
-  padding-bottom: 24px;
-}
-
-.a1-card-container .mdl-card__media {
-  overflow: hidden;
-  background: transparent;
-}
-
-.a1-card-container .mdl-card__media img {
-  width: 100%;
-}
-
-.a1-card-container .mdl-card__title {
-  background: transparent;
-  height: auto;
-}
-
-.a1-card-container .mdl-card__title-text {
-  color: black;
-  height: auto;
-}
-
-.a1-card-container .mdl-card__supporting-text {
-  height: auto;
-  color: black;
-  padding-bottom: 56px;
-}
-
-.a1-card-container .mdl-card__actions {
-  position: absolute;
-  bottom: 0;
-}
-
-.a1-card-container .mdl-card__actions a {
-  border-top: none;
-  font-size: 16px;
-}
-
-.a1-footer {
-  background-color: #424242;
-  position: relative;
-}
-
-.a1-footer .a1-link {
-  text-decoration: none;
-  color: #9e9e9e !important;
-}
-
-.a1-footer a:hover {
-  color: rgb(33, 150, 243);
-}
-
-.a1-footer .mdl-mega-footer--top-section::after {
-  border-bottom: none;
-}
-
-.a1-footer .mdl-mega-footer--middle-section::after {
-  border-bottom: none;
-}
-
-.a1-footer .mdl-mega-footer--bottom-section {
-  position: relative;
-}
-
-.a1-footer .mdl-mega-footer--bottom-section a {
-  margin-right: 2em;
-}
-
-.a1-footer .mdl-mega-footer--right-section a .material-icons {
-  position: relative;
-  top: 6px;
-}
-
-.a1-link-menu:hover {
-  cursor: pointer;
-}
-
 /**** Mobile layout ****/
 @media (max-width: 900px) {
-  .a1-navigation-container {
-    display: none;
-  }
 
   .a1-title {
     display: none !important;
@@ -492,27 +404,7 @@ a img {
     transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  /* WebViews in iOS 9 break the "~" operator, and WebViews in OS X 10.10 break
-  consecutive "+" operators in some cases. Therefore, we need to use both
-  here to cover all the bases. */
-  .android.a1-search-box.is-focused ~ .a1-mobile-title,
-  .a1-search-box.is-focused + .a1-navigation-container + .a1-mobile-title {
-    opacity: 0;
-  }
-
-  .a1-more-button {
-    display: none;
-  }
-
-  .a1-search-box.is-focused {
-    width: calc(100% - 48px);
-  }
-
-  .a1-search-box .mdl-textfield__expandable-holder {
-    width: 100%;
-  }
-
-  .a1-be-together-section {
+  .a1-hero-section {
     height: 350px;
   }
 
@@ -558,12 +450,12 @@ a img {
 .a1-casos-ribbon {
   width: 100%;
   height: 40vh;
-  background: rgba(33, 150, 244, 1);
-  background: -webkit-linear-gradient(rgba(33, 150, 244, 1) 0%, rgba(212, 228, 239, 1) 100%);
-  background: -o-linear-gradient(rgba(33, 150, 244, 1) 0%, rgba(212, 228, 239, 1) 100%);
-  background: linear-gradient(rgba(33, 150, 244, 1) 0%, rgba(212, 228, 239, 1) 100%);
+  background: rgb(0,150,136);
+  background: -webkit-linear-gradient(-45deg, #02a7f4 0%, #009687 66%, #009687 100%);
+  background: -o-linear-gradient(-45deg, #02a7f4 0%, #009687 66%, #009687 100%);
+  background: linear-gradient(135deg, #02a7f4 0%, #009687 66%, #009687 100%);
   /* stylelint-disable-next-line function-name-case */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2196f4', endColorstr='#d4e4ef', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02a7f4', endColorstr='#009687', GradientType=1 );
   flex-shrink: 0;
 }
 
@@ -590,4 +482,56 @@ a img {
 
 .a1-casos-content h3 {
   margin-top: 48px;
+}
+
+/**
+ * PROJECTE STYLES
+ */
+
+.a1-customized-section {
+  text-align: center;
+}
+
+.a1-customized-section-text {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 16px 0;
+}
+
+.a1-customized-section-text p {
+  padding-top: 16px;
+}
+
+.a1-customized-section-image {
+  background: url('../images/devices.jpg') center top no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.a1-wear-section {
+  position: relative;
+  background: url('../images/wear.png') center top no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.a1-wear-band {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #37474f;
+}
+
+.a1-wear-band-text {
+  max-width: 800px;
+  margin-left: 25%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+}
+
+.a1-wear-band-text p {
+  padding-top: 8px;
 }
