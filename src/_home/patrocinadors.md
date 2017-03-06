@@ -5,7 +5,6 @@ order: 3
 # Specify the layout for this section
 include: home/patrocinadors.html
 # Set variables
-slogan: "Powering screens of all sizes"
-sub-slogan:
-image_path:
+slogan: "Patrocinadors"
+sub-slogan: "Aquest projecte ha estat possible gràcies a la col·laboració de les següents organitzacions"
 ---

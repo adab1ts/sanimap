@@ -22,6 +22,8 @@ collections:
     permalink: /:collection/:title.html
   home:
     output: false
+  patrocinadors:
+    output: false
 
 defaults:
   - scope:
