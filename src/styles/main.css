@@ -21,6 +21,15 @@ will be correctly compiled during `gulp serve` and `gulp`
 
 body {
   margin: 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Roboto Condensed', 'Helvetica', 'Arial', sans-serif;
 }
 
 /* Disable ugly boxes around images in IE10 */
@@ -211,7 +220,6 @@ a img {
 }
 
 .logo-font {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
   color: #424242;
   font-weight: 500;
@@ -287,12 +295,13 @@ a img {
 
 .a1-card-container .mdl-card__supporting-text {
   height: auto;
-  padding-bottom: 56px;
+  padding-bottom: 64px;
 }
 
 .a1-card-container .mdl-card__actions {
   position: absolute;
   bottom: 0;
+  padding: 16px;
 }
 
 .a1-card-container .mdl-card__actions a {
@@ -460,16 +469,54 @@ a img {
 
 .a1-casos-content {
   border-radius: 2px;
-  padding: 80px 56px;
-  margin-bottom: 80px;
+  padding: 40px 10px;
+  margin-bottom: 40px;
 }
 
 .a1-casos-layout.is-small-screen .a1-casos-content {
   padding: 40px 28px;
 }
 
-.a1-casos-content h3 {
-  margin-top: 48px;
+.a1-casos-content img {
+  width: 100%;
+}
+
+.a1-casos-content h2 {
+  color: rgb(0, 150, 136);
+  font-size: 2em;
+}
+
+@media (min-width: 1025px) {
+  .a1-casos-content h2 {
+    font-size: 3.5em;
+  }
+
+  .a1-casos-content {
+    padding: 80px 56px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 479px) {
+  .mdl-grid {
+    padding: 0;
+  }
+}
+
+.a1-casos-main .mdl-card {
+  width: 100%;
+  padding: 16px;
+  margin-top: 16px;
+  background: rgb(235, 235, 235);
+}
+
+.mdl-card h6 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.mdl-card ul {
+  margin: 0;
 }
 
 /**

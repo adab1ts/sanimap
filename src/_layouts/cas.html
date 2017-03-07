@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default 
 ---
 <div class="a1-casos-ribbon"></div>
 <main class="a1-casos-main">
@@ -9,7 +9,50 @@ layout: default
       <div class="a1-casos-crumbs mdl-color-text--grey-500">
         Casos d'estudi | {{ page.title }}
       </div>
-      {{ content }}
+      <div class="mdl-grid">
+        <!-- Image -->
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+          <img src="{{ site.baseurl }}/{{ site.images_path }}/{{ page.image }}" alt="{{ page.title }}">
+        </div>
+        <!-- Títol -->
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone shadow--3dp">
+          <h2>{{ page.title }}</h2>
+        </div>
+        <div class="mdl-cell mdl-cell--12-col shadow--3dp">
+          <!-- Fitxa -->
+          <div class="a1-card-container mdl-card mdl-shadow--3dp">
+            <h5>Municipi o Comarca:</h5>
+            <span class="mdl-typography--font-light mdl-typography--subhead">{{ page.municipi }}</span>
+            <h5>Any d'inici i final:</h5>
+            <span class="mdl-typography--font-light mdl-typography--subhead">{{ page.any }}</span>
+            <h5>Motiu de la reivindicació:</h5>
+            <span class="mdl-typography--font-light mdl-typography--subhead">{{ page.motiu }}</span>
+            <h5>Objectius de la campanya:</h5>
+            <span class="mdl-typography--font-light mdl-typography--subhead">{{ page.objectius }}</span>
+            <h5>Entitats que lideren la campanya:</h5>
+            <ul class="mdl-typography--font-light mdl-typography--subhead">
+              {% for item in page.entitats %}
+              <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+            <h5>Accions més destacades dutes a terme:</h5>
+            <ul class="mdl-typography--font-light mdl-typography--subhead">
+              {% for item in page.accions %}
+              <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+            <h5>Objectius assolits:</h5>
+            <ul class="mdl-typography--font-light mdl-typography--subhead">
+              {% for item in page.logros %}
+              <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--12-col shadow--3dp">
+          {{ content }}
+        </div>
+      </div>
     </div>
   </div>
 </main>
