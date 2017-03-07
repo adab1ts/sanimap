@@ -164,10 +164,13 @@ a img {
 .a1-footer .a1-link {
   text-decoration: none;
   color: #dcdcdc !important;
+  margin: 0px !important;
+  line-height: 20px !important;
 }
 
 .a1-footer a:hover {
-  color: rgb(0, 220, 200);
+  color: rgb(0, 220, 200) !important;
+  background: transparent !important;
 }
 
 .a1-footer .mdl-mega-footer--top-section::after {
@@ -178,13 +181,14 @@ a img {
   border-bottom: none;
 }
 
+.a1-footer .mdl-mega-footer--right-section a {
+  display: inline-block;
+}
+
 .a1-footer .mdl-mega-footer--bottom-section {
   position: relative;
 }
 
-.a1-footer .mdl-mega-footer--bottom-section a {
-  margin-right: 2em;
-}
 
 .a1-footer .mdl-mega-footer--right-section a .material-icons {
   position: relative;
