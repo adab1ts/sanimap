@@ -29,12 +29,12 @@ a img {
 }
 
 ::-moz-selection {
-  background-color: rgb(0,150,136) !important;
+  background-color: rgb(0, 150, 136) !important;
   color: white;
 }
 
 ::selection {
-  background-color: rgb(0,150,136) !important;
+  background-color: rgb(0, 150, 136) !important;
   color: white;
 }
 
@@ -62,7 +62,7 @@ a img {
 .a1-header {
   overflow: visible;
   background-color: white;
-  color: rgb(0,150,136);
+  color: rgb(0, 150, 136);
 }
 
 .a1-header span {
@@ -103,7 +103,7 @@ a img {
 
 .a1-drawer .mdl-layout-title {
   position: relative;
-  background: rgb(0,150,136);
+  background: rgb(0, 150, 136);
   color: white;
   height: 160px;
 }
@@ -135,7 +135,7 @@ a img {
 
 .a1-alt-link {
   text-decoration: none;
-  color: rgb(0,150,136) !important;
+  color: rgb(0, 150, 136) !important;
   font-size: 16px;
 }
 
@@ -152,8 +152,8 @@ a img {
   cursor: pointer;
 }
 
-.mdl-button{
-  background: rgb(64,196,255);
+.mdl-button {
+  background: rgb(64, 196, 255);
   color: white;
 }
 
@@ -164,7 +164,7 @@ a img {
 .a1-footer .a1-link {
   text-decoration: none;
   color: #dcdcdc !important;
-  margin: 0px !important;
+  margin: 0 !important;
   line-height: 20px !important;
 }
 
@@ -189,7 +189,6 @@ a img {
   position: relative;
 }
 
-
 .a1-footer .mdl-mega-footer--right-section a .material-icons {
   position: relative;
   top: 6px;
@@ -205,7 +204,7 @@ a img {
   position: relative;
   height: 800px;
   width: auto;
-  background-color: rgb(0,150,136);
+  background-color: rgb(0, 150, 136);
   /* stylelint-disable-next-line declaration-block-no-shorthand-property-overrides */
   background: url('../images/slide01.jpg') center 30% no-repeat;
   background-size: cover;
@@ -235,14 +234,13 @@ a img {
 
 .a1-create-character a {
   text-decoration: none;
-  /* color: #424242; */
   font-weight: 300;
 }
 
 /* Casos section */
 
 .a1-casos {
-  padding: 0px 0;
+  padding: 0;
   background: rgb(250, 250, 250);
 }
 
@@ -271,7 +269,7 @@ a img {
 .a1-card-container .mdl-card__title {
   background: transparent;
   height: auto;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .a1-card-container .mdl-card__title-text {
@@ -280,7 +278,7 @@ a img {
 
 .a1-card-container h3 {
   font-size: 1.5em;
-  color: rgb(0,150,136);
+  color: rgb(0, 150, 136);
 }
 
 .a1-card-container h5 {
@@ -349,11 +347,9 @@ a img {
   z-index: 1;
 }
 
-
-
 /**** Mobile layout ****/
-@media (max-width: 900px) {
 
+@media (max-width: 900px) {
   .a1-title {
     display: none !important;
   }
@@ -409,15 +405,45 @@ a img {
  * CASOS STYLES
  */
 
-.a1-casos-ribbon {
-  width: 100%;
-  height: 40vh;
-  background: rgb(0,150,136);
+.a1-casos-estudi--destacats {
+  background: rgb(0, 150, 136);
   background: -webkit-linear-gradient(-45deg, #02a7f4 0%, #009687 66%, #009687 100%);
   background: -o-linear-gradient(-45deg, #02a7f4 0%, #009687 66%, #009687 100%);
   background: linear-gradient(135deg, #02a7f4 0%, #009687 66%, #009687 100%);
   /* stylelint-disable-next-line function-name-case */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02a7f4', endColorstr='#009687', GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#02a7f4', endColorstr='#009687', GradientType=1);
+}
+
+.a1-casos-estudi .a1-casos-section {
+  padding: 80px 0;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+}
+
+.a1-casos-estudi--destacats .a1-section-title {
+  color: white;
+  opacity: 0.85;
+}
+
+.a1-casos-estudi--destacats .mdl-card__media {
+  max-height: 30vh;
+}
+
+.a1-casos-estudi--destacats .mdl-cell {
+  min-height: 60vh;
+}
+
+.a1-casos-ribbon {
+  width: 100%;
+  height: 40vh;
+  background: rgb(0, 150, 136);
+  background: -webkit-linear-gradient(-45deg, #02a7f4 0%, #009687 66%, #009687 100%);
+  background: -o-linear-gradient(-45deg, #02a7f4 0%, #009687 66%, #009687 100%);
+  background: linear-gradient(135deg, #02a7f4 0%, #009687 66%, #009687 100%);
+  /* stylelint-disable-next-line function-name-case */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#02a7f4', endColorstr='#009687', GradientType=);
   flex-shrink: 0;
 }
 

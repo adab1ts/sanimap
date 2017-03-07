@@ -4,7 +4,7 @@ mobile_title: Sanimap
 description: Mapa del Sistema Sanitari de Catalunya.
 baseurl: ""
 url: https://example.com
-email: your-email@domain.com
+email: veins@confavc.cat
 lang: ca
 google_analytics: UA-XXXXX-X
 
@@ -20,6 +20,8 @@ collections:
   casos:
     output: true
     permalink: /:collection/:title.html
+  casos-d-estudi:
+    output: false
   home:
     output: false
   patrocinadors:

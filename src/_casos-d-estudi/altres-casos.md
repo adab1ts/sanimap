@@ -1,0 +1,9 @@
+---
+title: "Altres casos"
+# Set the display order for this section
+order: 2
+# Specify the layout for this section
+include: casos-d-estudi/altres-casos.html
+# Set variables
+slogan: "Altres casos"
+---
