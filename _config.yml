@@ -1,12 +1,14 @@
 # Site settings
-title: Sanimap
+title: Mapa del Sistema Sanitari de Catalunya
 mobile_title: Sanimap
-description: Mapa del Sistema Sanitari de Catalunya.
+description: Mapeig de la situació de la sanitat catalana i de les campanyes ciutadanes per defensar-la.
 baseurl: ""
 url: https://sanimap.confavc.cat
 email: veins@confavc.cat
 lang: ca
 google_analytics: UA-XXXXX-X
+logo: logo-confavc.png
+logo-alt: logo-confavc-blanc.png
 
 # Where things are
 source: src

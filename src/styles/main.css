@@ -78,12 +78,8 @@ a img {
   padding-right: 25px;
 }
 
-.a1-header .material-icons {
-  color: #424242 !important;
-}
-
-.a1-social {
-  padding-left: 10px;
+.a1-social .a1-logo-image {
+  margin-left: 12px;
 }
 
 .a1-header .mdl-layout__drawer-button {
@@ -161,7 +157,7 @@ a img {
   cursor: pointer;
 }
 
-.mdl-button {
+.a1-mdl-button {
   background: rgb(64, 196, 255);
   color: white;
 }
@@ -366,7 +362,7 @@ a img {
   .a1-mobile-title {
     display: block !important;
     position: absolute;
-    left: calc(50% - 70px);
+    left: 60px;
     top: 12px;
     transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
