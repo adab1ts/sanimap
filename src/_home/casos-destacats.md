@@ -5,5 +5,5 @@ order: 2
 # Specify the layout for this section
 include: home/casos-destacats.html
 # Set variables
-slogan: "Casos d'estudi destacats"
+headline: "Casos d'estudi destacats"
 ---

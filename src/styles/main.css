@@ -221,12 +221,12 @@ a img {
   font-weight: 500;
 }
 
-.a1-slogan {
+.a1-headline {
   font-size: 60px;
   padding-top: 160px;
 }
 
-.a1-sub-slogan {
+.a1-sub-headline {
   font-size: 21px;
   padding-top: 24px;
 }
@@ -371,13 +371,13 @@ a img {
     height: 350px;
   }
 
-  .a1-slogan {
+  .a1-headline {
     font-size: 26px;
     margin: 0 16px;
     padding-top: 24px;
   }
 
-  .a1-sub-slogan {
+  .a1-sub-headline {
     font-size: 16px;
     margin: 0 16px;
     padding-top: 8px;
