@@ -1,5 +1,4 @@
 ---
-title: "Altres casos"
 # Set the display order for this section
 order: 2
 # Specify the layout for this section

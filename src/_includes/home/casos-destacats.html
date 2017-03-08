@@ -1,7 +1,9 @@
 <div class="a1-casos">
   <div class="a1-casos-section">
     <a id="casos"></a>
-    <div class="a1-section-title mdl-typography--display-2-color-contrast">{{ section.headline }}</div>
+    <div class="a1-section-title mdl-typography--display-2-color-contrast">
+      <a class="a1-title-link" href="{{ site.baseurl }}/casos-d-estudi.html"><h2>{{ section.headline }}</h2></a>
+    </div>
     <div class="a1-card-container mdl-grid">
     {% assign casos = site.casos | sort: 'order' %}
     {% for cas in casos %}
@@ -21,7 +23,7 @@
           <span class="mdl-typography--font-light mdl-typography--subhead">{{ cas.motiu }}</span>
         </div>
         <div class="mdl-card__actions">
-          <a class="a1-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="{{ cas.url }}">
+          <a class="a1-link mdl-button a1-mdl-button mdl-js-button mdl-typography--text-uppercase" href="{{ cas.url }}">
             Llegir més
             <i class="material-icons">chevron_right</i>
           </a>

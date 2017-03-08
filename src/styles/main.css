@@ -32,6 +32,11 @@ h5 {
   font-family: 'Roboto Condensed', 'Helvetica', 'Arial', sans-serif;
 }
 
+h2,
+h3 {
+  margin-left: 8px;
+}
+
 /* Disable ugly boxes around images in IE10 */
 a img {
   border: 0;
@@ -129,6 +134,9 @@ a img {
 
 .a1-link:hover {
   color: rgb(0, 220, 200) !important;
+}
+
+.mdl-card__actions .a1-link:hover {
   background: #dcdcdc !important;
 }
 
@@ -151,6 +159,15 @@ a img {
 .a1-alt-link .material-icons {
   position: relative;
   top: 6px;
+}
+
+.a1-title-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.a1-title-link:hover {
+  color: rgb(0, 150, 136) !important;
 }
 
 .a1-link-menu:hover {
@@ -253,12 +270,8 @@ a img {
   max-width: 1044px;
   margin-left: auto;
   margin-right: auto;
-  background: rgb(250, 250, 250);
-}
-
-.a1-casos-section .a1-section-title {
-  margin-left: 12px;
   padding-bottom: 24px;
+  background: rgb(250, 250, 250);
 }
 
 .a1-card-container .mdl-card__media {
@@ -292,17 +305,13 @@ a img {
 .a1-card-container .mdl-card__supporting-text {
   height: auto;
   padding-bottom: 64px;
+  color: #424242;
 }
 
 .a1-card-container .mdl-card__actions {
   position: absolute;
   bottom: 0;
   padding: 16px;
-}
-
-.a1-card-container .mdl-card__actions a {
-  border-top: none;
-  font-size: 16px;
 }
 
 /* Patrocinadors section */
