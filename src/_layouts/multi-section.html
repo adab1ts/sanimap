@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-{% assign sections = site.casos-d-estudi | sort: 'order' %}
+{% assign collection = site.collections | where:'label',page.sections | first %}
+{% assign sections = collection.docs | sort: 'order' %}
 {% for section in sections %}
-  {% if section.include != null %}
+  {% if section.include %}
     {% include {{ section.include }} %}
   {% else %}
     {% include shared/default-section.html %}
