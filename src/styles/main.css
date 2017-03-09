@@ -38,6 +38,7 @@ h3 {
 }
 
 /* Disable ugly boxes around images in IE10 */
+
 a img {
   border: 0;
 }
@@ -149,7 +150,7 @@ a img {
 .a1-alt-link {
   text-decoration: none;
   color: rgb(0, 150, 136) !important;
-  font-size: 16px;
+  font-weight: 500 !important;
 }
 
 .a1-alt-link:hover {
@@ -179,19 +180,26 @@ a img {
   color: white;
 }
 
+/**
+ * Footer
+ */
+
 .a1-footer {
   position: relative;
 }
 
 .a1-footer .a1-link {
   text-decoration: none;
-  color: #dcdcdc !important;
   margin: 0 !important;
   line-height: 20px !important;
 }
 
+.a1-footer .mdl-mega-footer__link-list a {
+  color: rgb(64, 196, 255) !important;
+}
+
 .a1-footer a:hover {
-  color: rgb(0, 220, 200) !important;
+  color: #dcdcdc !important;
   background: transparent !important;
 }
 
@@ -214,6 +222,102 @@ a img {
 .a1-footer .mdl-mega-footer--right-section a .material-icons {
   position: relative;
   top: 6px;
+}
+
+.subfooter {
+  padding: 1em 3.25em;
+  background: #dcdcdc;
+  text-align: right;
+  min-height: 3em;
+}
+
+.subfooter div:first-child {
+  width: 60%;
+  opacity: 0.9;
+  text-align: left;
+  float: left;
+  margin-top: 9px;
+}
+
+.subfooter div:last-child {
+  width: 30%;
+  float: right;
+}
+
+@media all and (max-width: 990px) {
+  .subfooter {
+    padding: 1.625em;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .subfooter {
+    padding: 15px;
+  }
+}
+
+.footer-3 {
+  padding: 4.5em 0 2em;
+  overflow: hidden;
+}
+
+.footer-3 div[class*='mdl-cell--']:first-child {
+  padding-left: 3.25em;
+}
+
+.footer-3 div[class*='mdl-cell--']:last-child {
+  padding-right: 3.25em;
+  text-align: right;
+}
+
+.footer-3 .footer__navigation {
+  text-align: center;
+  margin: 8 auto;
+}
+
+.footer-3 .footer__navigation ul {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.footer-3 .footer__navigation li {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.footer-3 .footer__navigation li a {
+  font-weight: 600;
+  font-size: 0.9em;
+  line-height: 2.6em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0 1em;
+}
+
+@media all and (max-width: 990px) {
+  .footer-3 div[class*='mdl-cell--']:first-child {
+    padding-left: 1.625em;
+  }
+
+  .footer-3 div[class*='mdl-cell--']:last-child {
+    padding-right: 1.625em;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .footer-3 div[class*='mdl-cell--']:first-child {
+    padding-left: 15px;
+  }
+
+  .footer-3 div[class*='mdl-cell--']:last-child {
+    padding-right: 15px;
+  }
+
+  .footer-3 .footer__navigation {
+    margin-top: 1.625em;
+    text-align: left;
+  }
 }
 
 /**
@@ -425,7 +529,7 @@ a img {
   background: -o-linear-gradient(-45deg, #02a7f4 0%, #009687 66%, #009687 100%);
   background: linear-gradient(135deg, #02a7f4 0%, #009687 66%, #009687 100%);
   /* stylelint-disable-next-line function-name-case */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#02a7f4', endColorstr='#009687', GradientType=1);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#02a7f4', endColorstr='#009687', GradientType=1);
 }
 
 .a1-casos-estudi .a1-casos-section {
@@ -457,7 +561,7 @@ a img {
   background: -o-linear-gradient(-45deg, #02a7f4 0%, #009687 66%, #009687 100%);
   background: linear-gradient(135deg, #02a7f4 0%, #009687 66%, #009687 100%);
   /* stylelint-disable-next-line function-name-case */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#02a7f4', endColorstr='#009687', GradientType=1);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#02a7f4', endColorstr='#009687', GradientType=1);
   flex-shrink: 0;
 }
 
