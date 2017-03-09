@@ -1,6 +1,6 @@
 ---
-title: "wear-silver-dos"
+title: "wear-silver-cinc"
 image: wear-silver-on.png
-order: 2
+order: 5
 web: http://www.confavc.cat
 ---
