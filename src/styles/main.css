@@ -449,7 +449,7 @@ a img {
   min-height: 60vh;
 }
 
-.a1-casos-ribbon {
+.a1-ribbon {
   width: 100%;
   height: 40vh;
   background: rgb(0, 150, 136);
@@ -461,12 +461,12 @@ a img {
   flex-shrink: 0;
 }
 
-.a1-casos-main {
+.a1-main {
   margin-top: -35vh;
   flex-shrink: 0;
 }
 
-.a1-casos-container {
+.a1-container {
   max-width: 1600px;
   width: calc(100% - 16px);
   margin: 0 auto;
@@ -508,7 +508,7 @@ a img {
   }
 }
 
-.a1-casos-main .mdl-card {
+.a1-main .mdl-card {
   width: 100%;
   padding: 16px;
   margin-top: 16px;
