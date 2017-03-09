@@ -4,7 +4,7 @@ permalink: cookies
 title: "Política de cookies"
 # Set SEO information
 description: "Informació sobre les cookies del site Sanimap"
-keyword: Sanimap
+keywords: Sanimap
 ---
 ## Política de cookies
 

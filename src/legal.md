@@ -4,7 +4,7 @@ permalink: avis-legal
 title: "Avís legal"
 # Set SEO information
 description: "Informació legal sobre el site Sanimap."
-keyword: Sanimap
+keywords: Sanimap
 ---
 ## Avís legal
 El domini sanimap.confavc.cat és titularitat de la CONFEDERACIÓ D’ASSOCIACIONS VEÏNALS DE CATALUNYA (CONFAVC), amb el NIF G-58964396. L’entitat consta inscrita al Registre d’Associacions i Fundacions del Departament de Justícia de la Generalitat de Catalunya amb el número 113 de la secció 2ª. Les nostres dades de contacte són: carrer Doctor Aiguader, 18 de Barcelona (08003). Tf: +34 93 268 89 80. Email: confavc@confavc.cat.
