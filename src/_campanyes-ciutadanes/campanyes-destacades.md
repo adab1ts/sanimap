@@ -1,8 +1,8 @@
 ---
 # Set the display order for this section
-order: 2
+order: 1
 # Specify the layout for this section
-include: casos-d-estudi/altres-casos.html
+include: campanyes-ciutadanes/campanyes-destacades.html
 # Set variables
-headline: "Altres casos"
+headline: "Campanyes destacades"
 ---

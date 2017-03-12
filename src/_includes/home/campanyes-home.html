@@ -1,0 +1,36 @@
+<div class="a1-campanyes">
+  <a id="campanyes"></a>
+  <div class="a1-campanyes-section">
+    <div class="a1-section-title mdl-typography--display-2-color-contrast">
+      <a class="a1-title-link" href="{{ site.baseurl }}/campanyes-ciutadanes.html"><h2>{{ section.headline }}</h2></a>
+    </div>
+    <div class="a1-card-container mdl-grid">
+    {% assign campanyes = site.campanyes | sort: 'order' %}
+    {% for campanya in campanyes %}
+      {% if campanya.destacat == 'si' %}
+      <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+        <div class="mdl-card__media">
+          <img src="{{ site.baseurl }}/{{ site.images_path }}/{{ campanya.image }}" alt="{{ campanya.title }}">
+        </div>
+        <div class="mdl-card__title">
+          <h3 class="mdl-card__title-text">{{ campanya.title }}</h3>
+        </div>
+        <div class="mdl-card__title">
+          <span class="mdl-typography--font-light mdl-typography--subhead">{{ campanya.municipi }} | {{ campanya.any }}</span>
+        </div>
+        <div class="mdl-card__supporting-text">
+          <h5 class="mdl-card__title-text">Motiu de la reivindicació:</h5>
+          <span class="mdl-typography--font-light mdl-typography--subhead">{{ campanya.motiu }}</span>
+        </div>
+        <div class="mdl-card__actions">
+          <a class="a1-link mdl-button a1-mdl-button mdl-js-button mdl-typography--text-uppercase" href="{{ campanya.url }}">
+            Llegir més
+            <i class="material-icons">chevron_right</i>
+          </a>
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+</div>

@@ -1,12 +1,12 @@
 ---
-title: "Cas 7"
-image: more-from-2.png
-order: 7
+title: "Campanya 4"
+image: more-from-1.png
+order: 4
 destacat: no
-municipi: Gironella
-any: 2017
+municipi: Manresa
+any: 2014
 ---
-# Cupcake & chocolate cookies
+# Basic MDL Usage
 
 Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
 

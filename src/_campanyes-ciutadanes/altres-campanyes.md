@@ -2,7 +2,7 @@
 # Set the display order for this section
 order: 2
 # Specify the layout for this section
-include: home/casos-destacats.html
+include: campanyes-ciutadanes/altres-campanyes.html
 # Set variables
-headline: "Casos d'estudi destacats"
+headline: "Altres campanyes"
 ---

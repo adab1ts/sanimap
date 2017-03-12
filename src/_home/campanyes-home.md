@@ -1,8 +1,8 @@
 ---
 # Set the display order for this section
-order: 1
+order: 2
 # Specify the layout for this section
-include: casos-d-estudi/casos-hero.html
+include: home/campanyes-home.html
 # Set variables
-headline: "Casos d'estudi destacats"
+headline: "Campanyes destacades"
 ---
