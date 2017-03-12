@@ -4,7 +4,7 @@
   <div class="a1-patrocinadors">
     {% assign patrocinadors = site.patrocinadors | sort: 'order' %}
     {% for item in patrocinadors %}
-    <div class="a1-logo a1-patrocinador">
+    <div class="a1-logos-section a1-patrocinador">
       <a class="a1-image-link" href="{{ item.web }}" target="_blank">
         <img class="a1-patrocinador-image" src="{{ site.baseurl }}/{{ site.images_path }}/{{ item.image }}" alt="Logotip de {{ item.title }}">
       </a>
