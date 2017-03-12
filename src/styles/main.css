@@ -71,7 +71,7 @@ a img {
 
 .a1-logo-image {
   height: 35px;
-  width: 35px;
+  width: auto;
 }
 
 .a1-header {
@@ -134,7 +134,7 @@ a img {
 }
 
 .a1-link:hover {
-  color: rgb(0, 220, 200) !important;
+  color: rgb(0, 150, 136) !important;
 }
 
 .mdl-card__actions .a1-link:hover {
