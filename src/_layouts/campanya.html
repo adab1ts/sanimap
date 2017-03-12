@@ -47,11 +47,22 @@ layout: default
               <li>{{ item }}</li>
               {% endfor %}
             </ul>
+            <h5>Més informació:</h5>
+            <span class="mdl-typography--font-light mdl-typography--subhead"><a class="a1-alt-link mdl-typography--font-regular" href="http://{{ page.web }}" target="_blank">{{ page.web }}</a></span>
           </div>
         </div>
         <div class="mdl-cell mdl-cell--12-col shadow--3dp">
           {{ content }}
+          <!-- Fotos -->
+          {% if page.fotos %}
+          <h3>Galeria fotogràfica</h3>
+          {% endif %}
         </div>
+        {% for item in page.fotos %}
+        <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+          <img src="{{ site.baseurl }}/{{ site.images_path }}/{{ item.foto }}" alt="{{ page.title }}">
+        </div>
+        {% endfor %}
       </div>
     </div>
   </div>

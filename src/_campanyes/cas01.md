@@ -1,8 +1,9 @@
 ---
 title: "El retorn de les ambulàncies a Sant Pere i Sant Pau"
-image: more-from-1.png
+image: more-from-1.png #imatge principal per la capçalera
 order: 1
 destacat: si
+web: www.confavc.cat
 municipi: Tarragona
 any: 2016
 motiu: "Les ambulàncies no tenen base junt al CAP, han estat ubicades a un polígon i això provoca greus endarreriments en el servei."
@@ -15,6 +16,13 @@ accions:
   - "Manifestacions"
 logros:
   - "Compromís de reubicació de les ambulàncies el 1er trimestre del 2017"
+fotos:
+  - foto: more-from-3.png
+    title: "Lorem ipsum"
+  - foto: more-from-4.png
+    title: "El retorn de les ambulàncies"
+  - foto: more-from-2.png
+    title: "AAVV La Unió de Sant Pere i Sant Pau"
 ---
 ### Antecedents
 
