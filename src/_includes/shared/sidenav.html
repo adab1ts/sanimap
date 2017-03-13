@@ -4,11 +4,12 @@
           <h5>{{ site.title }}</h5>
         </div>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="{{ site.baseurl }}/">Inici</a>
-          <a class="mdl-navigation__link" href="{{ site.baseurl }}/projecte.html">El projecte</a>
-          <a class="mdl-navigation__link" href="{{ site.baseurl }}/campanyes-ciutadanes.html">Campanyes ciutadanes</a>
-          <div class="a1-drawer-separator"></div>
-          <a class="mdl-navigation__link" href="{{ site.baseurl }}/avis-legal.html">Avís legal</a>
-          <a class="mdl-navigation__link" href="{{ site.baseurl }}/cookies.html">Cookies</a>
+          <a class="mdl-navigation__link" href="{{ site.baseurl }}{% link index.md %}">Inici</a>
+          <a class="mdl-navigation__link" href="{{ site.baseurl }}{% link projecte.md %}">Projecte</a>
+          <a class="mdl-navigation__link" href="{{ site.baseurl }}{% link campanyes-ciutadanes.md %}">Campanyes ciutadanes</a>
+
+        <div class="a1-drawer-separator"></div>
+          <a class="mdl-navigation__link" href="{{ site.baseurl }}{% link legal.md %}">Avís legal</a>
+          <a class="mdl-navigation__link" href="{{ site.baseurl }}{% link cookies.md %}">Cookies</a>
         </nav>
       </div>

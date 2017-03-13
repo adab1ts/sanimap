@@ -21,7 +21,7 @@ styles_path: styles
 collections:
   campanyes:
     output: true
-    permalink: /:collection/:title.html
+    permalink: /campanyes-ciutadanes/:title/
   campanyes-ciutadanes:
     output: false
   home:

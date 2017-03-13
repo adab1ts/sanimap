@@ -1,6 +1,5 @@
 ---
 layout: basic
-permalink: projecte
 title: "El projecte"
 # Set SEO information
 description: "Projecte d'anàlisi de la situació del sistema sanitari català realitzat per la CONFAVC i altres organitzacions veïnals."
