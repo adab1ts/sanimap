@@ -376,7 +376,6 @@ a img {
   max-width: 1044px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 24px;
   background: rgb(250, 250, 250);
 }
 
@@ -628,6 +627,20 @@ a img {
 
 .mdl-card ul {
   margin: 0;
+}
+
+.a1-crumbs {
+  padding: 8px;
+  margin-bottom: 24px;
+}
+
+.a1-crumbs a {
+  color: rgb(0, 150, 136);
+  text-decoration: none;
+}
+
+.a1-crumbs a:hover {
+  color: #424242;
 }
 
 /**

@@ -2,7 +2,7 @@
   <a id="campanyes"></a>
   <div class="a1-campanyes-section">
     <div class="a1-section-title mdl-typography--display-2-color-contrast">
-      <a class="a1-title-link" href="{{ site.baseurl }}/campanyes-ciutadanes.html"><h2>{{ section.headline }}</h2></a>
+      <h2>{{ section.headline }}</h2>
     </div>
     <div class="a1-card-container mdl-grid">
     {% assign campanyes = site.campanyes | sort: 'order' %}
@@ -31,6 +31,9 @@
       </div>
       {% endif %}
     {% endfor %}
+    </div>
+    <div class="a1-crumbs">
+      <a href="{{ site.baseurl }}/campanyes-ciutadanes.html">Veure totes les campanyes ></a>
     </div>
   </div>
 </div>
