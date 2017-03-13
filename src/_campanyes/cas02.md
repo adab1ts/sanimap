@@ -1,7 +1,7 @@
 ---
 title: "Campanya 2"
-image: more-from-2.png
 order: 2
+imatge: lleida_02_ple_diputacio.jpg
 destacat: si
 municipi: Girona
 any: 2015

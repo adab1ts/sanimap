@@ -1,7 +1,7 @@
 ---
 title: "Campanya 3"
-image: more-from-3.png
 order: 3
+imatge: lleida_03_carta_oberta_consorci_lleida.jpg
 destacat: no
 municipi: Cornellà
 any: 2016

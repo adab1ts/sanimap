@@ -1,7 +1,7 @@
 ---
 title: "El retorn de les ambulàncies a Sant Pere i Sant Pau"
-image: more-from-1.png #imatge principal per la capçalera
 order: 1
+imatge: lleida_01_farsa_observatori.png #imatge principal per la capçalera
 destacat: si
 web: www.confavc.cat
 municipi: Tarragona
@@ -17,12 +17,14 @@ accions:
 logros:
   - "Compromís de reubicació de les ambulàncies el 1er trimestre del 2017"
 fotos:
-  - foto: more-from-3.png
-    title: "Lorem ipsum"
-  - foto: more-from-4.png
-    title: "El retorn de les ambulàncies"
-  - foto: more-from-2.png
-    title: "AAVV La Unió de Sant Pere i Sant Pau"
+  - foto: lleida_02_ple_diputacio.jpg
+    titol: "Lorem ipsum"
+  - foto: lleida_03_carta_oberta_consorci_lleida.jpg
+    titol: "El retorn de les ambulàncies"
+  - foto: lleida_04_teresa_forcades.jpg
+    titol: "Acció al carrer amb Teresa Forcades"
+  - foto: lleida_05 manifestacion.jpg
+    titol: "Manifestació a Lleida"
 ---
 ### Antecedents
 

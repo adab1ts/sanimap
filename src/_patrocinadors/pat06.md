@@ -1,6 +1,6 @@
 ---
-title: "wear-silver-sis"
-image: wear-silver-on.png
+title: "Patrocinador-sis"
+image: logo-patrocinador.png
 order: 6
 web: http://www.confavc.cat
 ---

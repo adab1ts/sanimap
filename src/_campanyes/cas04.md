@@ -1,7 +1,7 @@
 ---
 title: "Campanya 4"
-image: more-from-1.png
 order: 4
+imatge: lleida_04_teresa_forcades.jpg
 destacat: no
 municipi: Manresa
 any: 2014

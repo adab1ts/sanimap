@@ -1,7 +1,7 @@
 ---
 title: "Campanya 5"
-image: more-from-4.png
 order: 5
+imatge: lleida_05 manifestacion.jpg
 destacat: no
 municipi: Igualada
 any: 2014
