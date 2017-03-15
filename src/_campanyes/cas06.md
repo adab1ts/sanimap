@@ -1,14 +1,13 @@
 ---
-title: "Lorem ipsum sed do tempor incididunt"
-order: 2
-imatge: lleida_02_ple_diputacio.jpg
-destacat: si
-home: si
-municipi: Girona
+title: "Lorem ipsum dolore eu fugiat"
+order: 5
+imatge: lleida_01_farsa_observatori.png
+destacat: no
+home: no
+municipi: Amposta
 entitats:
-  - "AAVV de Girona"
-  - "AAVV Lorem ipsum"
-any: "2017"
+  - "AAVV d'Amposta'"
+any: "2011"
 ambit: "Lorem ipsum"
 objectius:
   - "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."

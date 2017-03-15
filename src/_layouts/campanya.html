@@ -15,20 +15,24 @@ layout: default
           <img src="{{ site.baseurl }}/{{ site.images_path }}/{{ page.imatge }}" alt="{{ page.title }}">
         </div>
         <!-- Títol -->
-        <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone shadow--3dp">
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
           <h2>{{ page.title }}</h2>
         </div>
         <div class="mdl-cell mdl-cell--12-col shadow--3dp">
           <!-- Fitxa -->
-          <div class="a1-card-container mdl-card mdl-shadow--3dp">
+          <div class="a1-card-container mdl-card">
             <h5>Municipi o Comarca:</h5>
             <span class="mdl-typography--font-light mdl-typography--subhead">{{ page.municipi }}</span>
             <h5>Any d'inici i final:</h5>
             <span class="mdl-typography--font-light mdl-typography--subhead">{{ page.any }}</span>
-            <h5>Motiu de la reivindicació:</h5>
-            <span class="mdl-typography--font-light mdl-typography--subhead">{{ page.motiu }}</span>
+            <h5>Àmbit de la reivindicació:</h5>
+            <span class="mdl-typography--font-light mdl-typography--subhead">{{ page.ambit }}</span>
             <h5>Objectius de la campanya:</h5>
-            <span class="mdl-typography--font-light mdl-typography--subhead">{{ page.objectius }}</span>
+            <ul class="mdl-typography--font-light mdl-typography--subhead">
+              {% for item in page.objectius %}
+              <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
             <h5>Entitats que lideren la campanya:</h5>
             <ul class="mdl-typography--font-light mdl-typography--subhead">
               {% for item in page.entitats %}
@@ -47,22 +51,34 @@ layout: default
               <li>{{ item }}</li>
               {% endfor %}
             </ul>
+              {% if page.web %}
             <h5>Més informació:</h5>
-            <span class="mdl-typography--font-light mdl-typography--subhead"><a class="a1-alt-link mdl-typography--font-regular" href="http://{{ page.web }}" target="_blank">{{ page.web }}</a></span>
+            <span class="mdl-typography--font-light mdl-typography--subhead">
+              <a class="a1-alt-link mdl-typography--font-regular" href="http://{{ page.web }}" target="_blank">{{ page.web }}</a>
+            </span>
+            {% endif %}
           </div>
         </div>
-        <div class="mdl-cell mdl-cell--12-col shadow--3dp">
+        <div class="mdl-cell mdl-cell--12-col">
           {{ content }}
-          <!-- Fotos -->
-          {% if page.fotos %}
-          <h3>Galeria fotogràfica</h3>
+          {% if page.font %}
+          <div class="mdl-typography--font-light a1-text-right">
+            <a class="a1-alt-link" href="http://{{ page.font-url }}" target="_blank">{{ page.font }}</a>
+          </div>
           {% endif %}
         </div>
-        {% for item in page.fotos %}
-        <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone"><span class="mdl-color-text--grey-500">{{ item.titol }}</span>
-          <img src="{{ site.baseurl }}/{{ site.images_path }}/{{ item.foto }}" alt="{{ item.titol }}">
+
+          <!-- Fotos -->
+          {% if page.fotos %}
+        <div class="mdl-cell mdl-cell--12-col">
+          <h3>Galeria fotogràfica</h3>
         </div>
-        {% endfor %}
+          {% for item in page.fotos %}
+          <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone a1-galeria"><span class="mdl-color-text--grey-500">{{ item.titol }}</span>
+          <img src="{{ site.baseurl }}/{{ site.images_path }}/{{ item.foto }}" alt="{{ item.titol }}">
+          </div>
+          {% endfor %}
+          {% endif %}
       </div>
     </div>
   </div>

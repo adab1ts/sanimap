@@ -189,6 +189,10 @@ a img {
   color: white;
 }
 
+.a1-text-right {
+  text-align: right;
+}
+
 /**
  * Footer
  */
@@ -546,6 +550,10 @@ a img {
   opacity: 0.85;
 }
 
+.a1-campanyes-section .mdl-card__media {
+  max-height: 23vh;
+}
+
 .a1-campanyes-ciutadanes--destacats .mdl-card__media {
   max-height: 30vh;
 }
@@ -594,6 +602,7 @@ a img {
 .a1-content h2 {
   color: rgb(0, 150, 136);
   font-size: 2em;
+  line-height: 1.2em;
 }
 
 @media (min-width: 1025px) {
@@ -641,6 +650,10 @@ a img {
 
 .a1-crumbs a:hover {
   color: #424242;
+}
+
+.a1-galeria img {
+  margin-top: 8px;
 }
 
 /**

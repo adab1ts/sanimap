@@ -16,8 +16,11 @@
       <span class="mdl-typography--font-light mdl-typography--subhead">{{ campanya.municipi }} | {{ campanya.any }}</span>
     </div>
     <div class="mdl-card__supporting-text">
-      <h5 class="mdl-card__title-text">Motiu de la reivindicació:</h5>
-      <span class="mdl-typography--font-light mdl-typography--subhead">{{ campanya.motiu }}</span>
+      <h5 class="mdl-card__title-text">Objectius de la campanya:</h5>
+      <span class="mdl-typography--font-light mdl-typography--subhead">
+        {% assign objectius = campanya.objectius %}
+        {{ objectius | join: " " | truncate: 200 }}
+      </span>
     </div>
     <div class="mdl-card__actions">
       <a class="a1-link mdl-button a1-mdl-button mdl-js-button mdl-typography--text-uppercase" href="{{ campanya.url }}">

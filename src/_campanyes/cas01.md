@@ -1,51 +1,36 @@
 ---
-title: "El retorn de les ambulàncies a Sant Pere i Sant Pau"
+title: "Urgències dignes JA (al Parc Taulí)"
 order: 1
-imatge: lleida_01_farsa_observatori.png #imatge principal per la capçalera
+imatge: sabadell3-01-024.jpg #imatge principal per la capçalera
 destacat: si
-web: www.confavc.cat
-municipi: Tarragona
-any: 2016
-motiu: "Les ambulàncies no tenen base junt al CAP, han estat ubicades a un polígon i això provoca greus endarreriments en el servei."
-objectius: "Que torni a estar la ambulància al costat del CAP de Sant Pere i Sant Pau."
+home: si
+municipi: Sabadell
 entitats:
-  - "AAVV La Unió de Sant Pere i Sant Pau"
-  - "FAVT"
+  - "AAVV de la Federació d'Associacions Veïnals de Sabadell"
+any: "2014-2017"
+ambit: "Urgències"
+objectius:
+  - "Reivindicar recursos materials i humans per dignificar les urgències tercermundistes que pateix la comarca."
 accions:
-  - "Diverses reunions amb els responsables"
-  - "Manifestacions"
+  - "Taula de recollida de signatures i queixes."
+  - "Repartiment d'octavetes de denúncia a la porta de les urgències del Parc Taulí durant molts mesos."
 logros:
-  - "Compromís de reubicació de les ambulàncies el 1er trimestre del 2017"
+  - "Tenir presència pública i portar la denúncia al carrer, però sense cap resultat significatiu des de la Generalitat."
 fotos:
-  - foto: lleida_02_ple_diputacio.jpg
-    titol: "Lorem ipsum"
-  - foto: lleida_03_carta_oberta_consorci_lleida.jpg
-    titol: "El retorn de les ambulàncies"
-  - foto: lleida_04_teresa_forcades.jpg
-    titol: "Acció al carrer amb Teresa Forcades"
-  - foto: lleida_05 manifestacion.jpg
-    titol: "Manifestació a Lleida"
+  - foto: sabadell3-022.jpg
+    titol: "Manifestació Urgències dignes Ja!"
+  - foto: sabadell3-octavilla.jpg
+    titol: "Octaveta de la campanya"
+  - foto: sabadell3-taula-tauli.jpg
+    titol: "Taula de signatures al Parc Taulí"
+web: favsabadell.cat #web on es pot trobar més informació (sense http://)
+font: "Extret d’un article del Manuel Navas" #font de la informació
+font-url: favsabadell.cat #url de la font (sense http://)
 ---
-### Antecedents
+La FAV, així com els/les treballadors/es del Taulí, han denunciat per activa i per passiva i de mil formes que la manca de recursos materials, econòmics i humans està conduint el servei socio-sanitari que tenim al Vallès Occidental-Est a situacions inaguantables. I això és més greu, si pot ser-ho, en el servei d'urgències, on la falta de drenatge per falta de llits en planta i d'altres recursos necessaris impedeix que el circuit funcioni adequadament i s'assembli més al d'un país tercermundista.
 
-Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
+Es deixen als/les pacients en una situació de desatenció alarmant i indefensió insostenible des de qualsevol punt de vista. Davant la denúncia d'un escenari que per moments és d'autèntic caos, tot i l'impagable esforç de la plantilla, que ho fan tot per donar la millor atenció possible, la direcció i de l'administració competent donen la callada per resposta. Com a molt, es limiten a córrer cortines de fum: "sou uns alarmistes", "no està tan malament", "aviat se solucionaran les deficiències", etc. Arguments insostenibles perquè la prova del cotó demostra que el servei d'urgències que patim és deplorable. Només cal veure les dades que aporten treballadors / es i pacients, les caravanes d'ambulàncies a l'espera d'evacuar malalts davant la falta de llits i espai en urgències, les vegades que les ambulàncies cedeixen els seus lliteres perquè els pacients puguin estar als passadissos (deixant a l'ambulància inútil per no tenir llitera), la manca de personal, de llits, etc.
 
-Tempor tempor aliqua in commodo cillum Lorem magna dolore proident Lorem. Esse ad consequat est excepteur irure eu irure quis aliqua qui. Do mollit esse veniam excepteur ut veniam anim minim dolore sit commodo consequat duis commodo. Sunt dolor reprehenderit ipsum minim eiusmod eu consectetur anim excepteur eiusmod. Duis excepteur anim dolor sit enim veniam deserunt anim adipisicing Lorem elit. Cillum sunt do consequat elit laboris nisi consectetur.
+Fa anys que el Taulí pateix, no només de retallades, sinó un greuge comparatiu respecte a Catalunya. Es van plantejar vies per pal·liar la situació (que no per a evitar-la) amb el Pla de Xoc del 2005-06 que, en no haver-se complert, per la lògica del temps i demografia, s'ha agreujat. I de no posar-hi remei urgent que canviï radicalment la tendència, el deteriorament de la sanitat pública serà cada vegada més gran.
 
-### Basic MDL Usage
-
-Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-
-Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-
-Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-
-Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-
-Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-
-Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-
-Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-
-Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
+Vista la passivitat manifesta dels que haurien de posar remei a aquest desordre establert, només queda la mobilització popular contundent per defensar el nostre dret a una sanitat pública i de gestió pública i amb recursos i unes urgències dignes.
