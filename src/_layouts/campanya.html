@@ -18,47 +18,42 @@ layout: default
         <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
           <h2>{{ page.title }}</h2>
         </div>
-        <div class="mdl-cell mdl-cell--12-col shadow--3dp">
-          <!-- Fitxa -->
-          <div class="a1-card-container mdl-card">
-            <h5>Municipi o Comarca:</h5>
-            <span class="mdl-typography--font-light mdl-typography--subhead">{{ page.municipi }}</span>
-            <h5>Any d'inici i final:</h5>
-            <span class="mdl-typography--font-light mdl-typography--subhead">{{ page.any }}</span>
-            <h5>Àmbit de la reivindicació:</h5>
-            <span class="mdl-typography--font-light mdl-typography--subhead">{{ page.ambit }}</span>
-            <h5>Objectius de la campanya:</h5>
-            <ul class="mdl-typography--font-light mdl-typography--subhead">
-              {% for item in page.objectius %}
-              <li>{{ item }}</li>
-              {% endfor %}
-            </ul>
-            <h5>Entitats que lideren la campanya:</h5>
-            <ul class="mdl-typography--font-light mdl-typography--subhead">
-              {% for item in page.entitats %}
-              <li>{{ item }}</li>
-              {% endfor %}
-            </ul>
-            <h5>Accions més destacades dutes a terme:</h5>
-            <ul class="mdl-typography--font-light mdl-typography--subhead">
-              {% for item in page.accions %}
-              <li>{{ item }}</li>
-              {% endfor %}
-            </ul>
-            <h5>Objectius assolits:</h5>
-            <ul class="mdl-typography--font-light mdl-typography--subhead">
-              {% for item in page.logros %}
-              <li>{{ item }}</li>
-              {% endfor %}
-            </ul>
-              {% if page.web %}
-            <h5>Més informació:</h5>
-            <span class="mdl-typography--font-light mdl-typography--subhead">
-              <a class="a1-alt-link mdl-typography--font-regular" href="http://{{ page.web }}" target="_blank">{{ page.web }}</a>
-            </span>
-            {% endif %}
-          </div>
+        <!-- Fitxa -->
+        <div class="a1-card-container mdl-cell mdl-cell--12-col mdl-card">
+          <span class="mdl-typography--font-light a1-headline">{{ page.entitats | join: ", " }}</span>
+          <span class="mdl-typography--font-light a1-headline">{{ page.municipi }} | {{ page.any }}</span>
+          <h5>Àmbits de la reivindicació:</h5>
+          <ul class="mdl-typography--font-light mdl-typography--subhead">
+            {% for item in page.ambits %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+          <h5>Objectius de la campanya:</h5>
+          <ul class="mdl-typography--font-light mdl-typography--subhead">
+            {% for item in page.objectius %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+          <h5>Accions més destacades dutes a terme:</h5>
+          <ul class="mdl-typography--font-light mdl-typography--subhead">
+            {% for item in page.accions %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+          <h5>Objectius assolits:</h5>
+          <ul class="mdl-typography--font-light mdl-typography--subhead">
+            {% for item in page.logros %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+          {% if page.web %}
+          <h5>Més informació:</h5>
+          <span class="mdl-typography--font-light mdl-typography--subhead">
+            <a class="a1-alt-link mdl-typography--font-regular" href="http://{{ page.web }}" target="_blank">{{ page.web }}</a>
+          </span>
+          {% endif %}
         </div>
+
         <div class="mdl-cell mdl-cell--12-col">
           {{ content }}
           {% if page.font %}
@@ -68,17 +63,17 @@ layout: default
           {% endif %}
         </div>
 
-          <!-- Fotos -->
-          {% if page.fotos %}
+        <!-- Fotos -->
+        {% if page.fotos %}
         <div class="mdl-cell mdl-cell--12-col">
           <h3>Galeria fotogràfica</h3>
         </div>
-          {% for item in page.fotos %}
-          <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone a1-galeria"><span class="mdl-color-text--grey-500">{{ item.titol }}</span>
+        {% for item in page.fotos %}
+        <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone a1-galeria"><span class="mdl-color-text--grey-500">{{ item.titol }}</span>
           <img src="{{ site.baseurl }}/{{ site.images_path }}/{{ item.foto }}" alt="{{ item.titol }}">
-          </div>
-          {% endfor %}
-          {% endif %}
+        </div>
+        {% endfor %}
+        {% endif %}
       </div>
     </div>
   </div>

@@ -8,7 +8,8 @@ municipi: Sabadell
 entitats:
   - "AAVV de la Federació d'Associacions Veïnals de Sabadell"
 any: "2014-2017"
-ambit: "Urgències"
+ambits: 
+  - Urgències
 objectius:
   - "Reivindicar recursos materials i humans per dignificar les urgències tercermundistes que pateix la comarca."
 accions:

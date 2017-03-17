@@ -58,7 +58,7 @@ a img {
   margin: 0 !important;
 }
 
-.a1-headline {
+.a1-section-headline {
   font-size: 60px;
   padding-top: 160px;
 }
@@ -407,10 +407,6 @@ a img {
   color: rgb(0, 150, 136);
 }
 
-.a1-card-container h5 {
-  font-size: 1.5em;
-}
-
 .a1-card-container .mdl-card__supporting-text {
   height: auto;
   padding-bottom: 64px;
@@ -490,7 +486,7 @@ a img {
     height: 70vh;
   }
 
-  .a1-headline {
+  .a1-section-headline {
     font-size: 26px;
     margin: 0 16px;
     padding-top: 24px;
@@ -604,6 +600,7 @@ a img {
   color: rgb(0, 150, 136);
   font-size: 2em;
   line-height: 1.2em;
+  font-weight: 500;
 }
 
 @media (min-width: 1025px) {
@@ -625,8 +622,8 @@ a img {
 
 .a1-main .mdl-card {
   width: 100%;
-  padding: 16px;
-  margin-top: 16px;
+  padding: 32px 16px;
+  margin: 24px 0 32px;
   background: rgb(235, 235, 235);
 }
 
@@ -655,6 +652,14 @@ a img {
 
 .a1-galeria img {
   margin-top: 8px;
+}
+
+.a1-headline {
+  color: rgb(0, 150, 136);
+  font-family: 'Roboto Condensed', 'Helvetica', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
 
 /**
