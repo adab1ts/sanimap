@@ -542,6 +542,12 @@ a img {
   background: transparent;
 }
 
+@media (max-width: 800px) {
+  .a1-campanyes-ciutadanes .a1-campanyes-section {
+    max-width: 100%;
+  }
+}
+
 .a1-campanyes-ciutadanes--destacats .a1-section-title {
   color: white;
   opacity: 0.85;
