@@ -332,6 +332,7 @@ a img {
 @media all and (max-width: 767px) {
   .footer-3 div[class*='mdl-cell--']:first-child {
     padding-left: 15px;
+    padding-top: 32px;
   }
 
   .footer-3 div[class*='mdl-cell--']:last-child {
@@ -381,10 +382,18 @@ a img {
 
 .a1-campanyes-section {
   padding: 80px 0;
-  max-width: 1044px;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
   background: rgb(250, 250, 250);
+}
+
+@media (max-width: 800px) {
+  .a1-campanyes-section {
+    max-width: 100%;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
 }
 
 .a1-card-container .mdl-card__media {
@@ -539,17 +548,7 @@ a img {
 }
 
 .a1-campanyes-ciutadanes .a1-campanyes-section {
-  padding: 80px 0;
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
   background: transparent;
-}
-
-@media (max-width: 800px) {
-  .a1-campanyes-ciutadanes .a1-campanyes-section {
-    max-width: 100%;
-  }
 }
 
 .a1-campanyes-ciutadanes--destacats .a1-section-title {
@@ -558,15 +557,35 @@ a img {
 }
 
 .a1-campanyes-section .mdl-card__media {
-  max-height: 23vh;
+  height: 23vh;
 }
 
 .a1-campanyes-ciutadanes--destacats .mdl-card__media {
-  max-height: 30vh;
+  height: 30vh;
 }
 
 .a1-campanyes-ciutadanes--destacats .mdl-cell {
   min-height: 60vh;
+}
+
+@media (min-width: 800px) and (orientation: portrait) {
+  .a1-campanyes-ciutadanes--destacats .mdl-cell {
+    min-height: 20vh;
+  }
+
+  .a1-campanyes-section .mdl-card__media {
+    max-height: 10vh;
+  }
+
+  .a1-campanyes-section .mdl-card__media {
+    max-height: 10vh;
+  }
+}
+
+@media (min-width: 700px) and (orientation: portrait) {
+  .a1-campanyes-ciutadanes--destacats .mdl-card__media {
+    max-height: 18vh;
+  }
 }
 
 .a1-ribbon {
