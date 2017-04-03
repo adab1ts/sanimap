@@ -37,6 +37,10 @@ h3 {
   margin-left: 8px;
 }
 
+figure {
+  margin: 0;
+}
+
 /* Disable ugly boxes around images in IE10 */
 
 a img {
@@ -577,7 +581,7 @@ a img {
   flex-shrink: 0;
 }
 
-.a1-main {
+.a1-page {
   margin-top: -35vh;
   flex-shrink: 0;
 }
@@ -626,7 +630,7 @@ a img {
   }
 }
 
-.a1-main .mdl-card {
+.a1-page .a1-card-container {
   width: 100%;
   padding: 32px 16px;
   margin: 24px 0 32px;

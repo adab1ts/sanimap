@@ -1,6 +1,8 @@
-<div class="a1-patrocinadors-section mdl-typography--text-center">
-  <div class="a1-section-title mdl-typography--display-2-color-contrast"><h2>{{ section.headline }}</h2></div>
-  <div class="a1-subhead mdl-typography--font-light mdl-typography--subhead">{{ section.sub-headline }}</div>
+<section class="a1-patrocinadors-section mdl-typography--text-center">
+  <header>
+    <div class="a1-section-title mdl-typography--display-2-color-contrast"><h2>{{ section.headline }}</h2></div>
+    <div class="a1-subhead mdl-typography--font-light mdl-typography--subhead">{{ section.sub-headline }}</div>
+  </header>
   <div class="a1-patrocinadors">
   {% assign patrocinadors = site.patrocinadors | sort: 'order' %}
   {% for item in patrocinadors %}
@@ -9,17 +11,17 @@
       <a class="a1-image-link" href="{{ item.web }}" target="_blank">
         <img class="a1-patrocinador-image" src="{{ site.baseurl }}/{{ site.images_path }}/{{ item.image }}" alt="Logotip de {{ item.title }}">
       </a>
-      {% else %}
+    {% else %}
       <img class="a1-patrocinador-image" src="{{ site.baseurl }}/{{ site.images_path }}/{{ item.image }}" alt="Logotip de {{ item.title }}">
     {% endif %}
     {% if item.web %}
       <a class="a1-alt-link mdl-typography--font-regular mdl-typography--text-uppercase" href="{{ item.web }}" target="_blank">
         {{ item.title }}
       </a>
-      {% else %}
+    {% else %}
       <p class="mdl-typography--font-regular mdl-typography--text-uppercase">{{ item.title }}<p>
     {% endif %}
     </div>
   {% endfor %}
   </div>
-</div>
+</section>
