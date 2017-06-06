@@ -6,7 +6,7 @@
     </header>
     <div class="a1-card-container mdl-grid">
       {% assign campanyes = site.campanyes | where_exp:"campanya","campanya.home == 'si'" | sort: 'order' %}
-      {% for campanya in campanyes %}
+      {% for campanya in campanyes limit:3 %}
       <article class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
         <div class="mdl-card__media ">
           <img src="{{ site.baseurl }}/{{ site.images_path }}/{{ campanya.imatge }}" alt="{{ campanya.title }}">

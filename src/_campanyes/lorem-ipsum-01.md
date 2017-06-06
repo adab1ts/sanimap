@@ -1,13 +1,13 @@
 ---
-title: "Lorem ipsum sed do tempor incididunt"
+title: "Propera campanya"
 order: 2
-imatge: lleida_02_ple_diputacio.jpg
+imatge: placeholder_foto.png
 destacat: si
 home: si
-municipi: Girona
+municipi: Lorem ipsum
 entitats:
-  - "AAVV de Girona"
-  - "AAVV Lorem ipsum"
+  - "Lorem ipsum"
+  - "Lorem ipsum"
 any: "2017"
 ambit: "Lorem ipsum"
 objectius:
@@ -19,11 +19,11 @@ logros:
   - "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   - "Duis aute irure dolor in reprehenderit"
 fotos:
-  - foto: lleida_05_manifestacion.jpg
+  - foto: placeholder_foto.png
     titol: "Lorem ipsum"
-  - foto: lleida_05_manifestacion.jpg
+  - foto: placeholder_foto.png
     titol: "Lorem ipsum"
-  - foto: lleida_05_manifestacion.jpg
+  - foto: placeholder_foto.png
     titol: "Lorem ipsum"
 web: loremipsum #web on es pot trobar més informació (sense http://)
 font:  #font de la informació
