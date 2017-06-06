@@ -1,6 +1,6 @@
 ---
-title: "Patrocinador-cinc"
+title: "Vols ser patrocinador?"
 image: logo-patrocinador.png
 order: 5
-web: http://www.confavc.cat
+web: "mailto:veins@confavc.cat?subject=Patrocinador sanimap"
 ---
