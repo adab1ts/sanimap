@@ -355,7 +355,7 @@ a img {
   position: relative;
   height: 90vh;
   width: 100%;
-  background-color: rgb(0, 150, 136);
+  background-color: rgb(242, 246, 249);
 }
 
 .a1-map-section iframe {
@@ -368,8 +368,8 @@ a img {
 
 .a1-fab {
   position: absolute;
-  right: 20%;
-  bottom: 0;
+  right: 50%;
+  bottom: -10px;
   z-index: 3;
 }
 
@@ -377,7 +377,7 @@ a img {
 
 .a1-campanyes {
   padding: 0;
-  background: rgb(250, 250, 250);
+  background: rgb(242, 246, 249);
 }
 
 .a1-campanyes-section {
@@ -385,7 +385,6 @@ a img {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  background: rgb(250, 250, 250);
 }
 
 @media (max-width: 800px) {
@@ -496,7 +495,7 @@ a img {
   }
 
   .a1-map-section {
-    height: 70vh;
+    height: 85vh;
   }
 
   .a1-section-headline {
@@ -523,6 +522,11 @@ a img {
   .a1-fab {
     display: none;
   }
+
+  /* .a1-fab {
+    right: 20%;
+    bottom: -25px;
+  } */
 
   .a1-wear-band-text {
     margin-left: 0;
@@ -653,7 +657,7 @@ a img {
   width: 100%;
   padding: 32px 16px;
   margin: 24px 0 32px;
-  background: rgb(235, 235, 235);
+  background: rgb(242, 246, 249);
 }
 
 .mdl-card h6 {
