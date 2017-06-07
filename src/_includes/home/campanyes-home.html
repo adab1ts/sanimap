@@ -6,7 +6,7 @@
     </header>
     <div class="a1-card-container mdl-grid">
       {% assign campanyes = site.campanyes | where_exp:"campanya","campanya.home == 'si'" | sort: 'order' %}
-      {% for campanya in campanyes limit:3 %}
+      {% for campanya in campanyes limit:1 %}
       <article class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
         <div class="mdl-card__media ">
           <img src="{{ site.baseurl }}/{{ site.images_path }}/{{ campanya.imatge }}" alt="{{ campanya.title }}">
@@ -33,6 +33,7 @@
         </div>
       </article>
       {% endfor %}
+      {% include shared/cta.html %}
     </div>
     <!-- <div class="a1-crumbs">
       <a href="{{ site.baseurl }}{% link campanyes-ciutadanes.md %}">Veure totes les campanyes &gt;</a>
