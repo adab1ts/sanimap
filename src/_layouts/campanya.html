@@ -4,23 +4,29 @@ layout: default
 <div class="a1-ribbon"></div>
 <div class="a1-page">
   <div class="a1-container mdl-grid">
-    <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-    <main class="a1-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+    <main class="a1-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--2-offset-desktop mdl-cell--8-col">
+      <!-- Breadcrumb -->
       <div class="a1-crumbs mdl-color-text--grey-500">
         <a href="{{ site.baseurl }}{% link campanyes-ciutadanes.md %}">Campanyes ciutadanes</a> &gt; {{ page.title }}
       </div>
+      <!-- End Breadcrumb -->
+
       <section class="mdl-grid">
-        <!-- Image -->
+        <!-- Imatge -->
         <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
           <img src="{{ site.baseurl }}/{{ site.images_path }}/{{ page.imatge }}" alt="{{ page.title }}">
         </div>
+        <!-- End Imatge -->
+
         <!-- Títol -->
         <header class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
           <h2>{{ page.title }}</h2>
         </header>
+        <!-- End Títol -->
+
         <!-- Fitxa -->
         <section class="a1-card-container mdl-cell mdl-cell--12-col mdl-card">
-          <span class="mdl-typography--font-light a1-headline">{{ page.entitats | join: ", " }}</span>
+          <span class="mdl-typography--font-light a1-headline">{{ page.entitats | array_to_sentence_string: 'i' }}</span>
           <span class="mdl-typography--font-light a1-headline">{{ page.municipi }} | {{ page.any }}</span>
           <h5>Àmbits de la reivindicació:</h5>
           <ul class="mdl-typography--font-light mdl-typography--subhead">
@@ -53,7 +59,9 @@ layout: default
           </span>
           {% endif %}
         </section>
+        <!-- End Fitxa -->
 
+        <!-- Contingut -->
         <article class="mdl-cell mdl-cell--12-col">
           {{ content }}
           {% if page.font %}
@@ -62,19 +70,21 @@ layout: default
           </div>
           {% endif %}
         </article>
+        <!-- End Contingut -->
 
-        <!-- Fotos -->
+        <!-- Galeria -->
         {% if page.fotos %}
         <div class="mdl-cell mdl-cell--12-col">
           <h3>Galeria fotogràfica</h3>
         </div>
-          {% for item in page.fotos %}
-            <figure class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone a1-galeria">
-              <figcaption class="mdl-color-text--grey-500">{{ item.titol }}</figcaption>
-              <img src="{{ site.baseurl }}/{{ site.images_path }}/{{ item.foto }}" alt="{{ item.titol }}">
-            </figure>
-          {% endfor %}
+        {% for item in page.fotos %}
+        <figure class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone a1-galeria">
+          <figcaption class="mdl-color-text--grey-500">{{ item.titol }}</figcaption>
+          <img src="{{ site.baseurl }}/{{ site.images_path }}/{{ item.foto }}" alt="{{ item.titol }}">
+        </figure>
+        {% endfor %}
         {% endif %}
+        <!-- End Galeria -->
 
         <!-- Social -->
         {% include shared/social-sharing.html %}
