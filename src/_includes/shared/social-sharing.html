@@ -1,0 +1,30 @@
+<div class="a1-social-buttons mdl-grid">
+  <div class="mdl-cell mdl-cell--12-col">
+    {% assign url = page.url | absolute_url %}
+    <!-- Twitter -->
+    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect a1-button a1-button--twitter"
+       title="Compartir a Twitter"
+       data-open-share="twitter"
+       data-open-share-url="{{ url }}"
+       data-open-share-text="{{ page.title }}"
+       data-open-share-via="confavc"
+       data-open-share-hashtags="sanimap">
+      <span class="socicon-twitter"></span> Twitter
+    </a>
+    <!-- Facebook -->
+    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect a1-button a1-button--facebook"
+       title="Compartir a Facebook"
+       data-open-share="facebook"
+       data-open-share-link="{{ url }}"
+       data-open-share-description="{{ page.title }}">
+      <span class="socicon-facebook"></span> Facebook
+    </a>
+    <!-- Google+ -->
+    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect a1-button a1-button--googleplus"
+       title="Compartir a Google+"
+       data-open-share="google"
+       data-open-share-url="{{ url }}">
+      <span class="socicon-googleplus"></span> Google+
+    </a>
+  </div>
+</div>

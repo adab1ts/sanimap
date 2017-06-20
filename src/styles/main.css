@@ -57,6 +57,57 @@ a img {
   color: white;
 }
 
+/* Custom styles */
+
+/* Components */
+
+/** Social Buttons **/
+.a1-social-buttons {
+  margin: 1rem auto;
+}
+
+.mdl-button.a1-button {
+  margin: 5px 2.5px;
+  padding: 0 14px;
+}
+
+.mdl-button.a1-button:first-child {
+  margin-left: 0;
+}
+
+.mdl-button.a1-button:last-child {
+  margin-right: 0;
+}
+
+.mdl-button.a1-button--twitter,
+.mdl-button.a1-button--facebook,
+.mdl-button.a1-button--googleplus {
+  color: white;
+}
+
+.mdl-button.a1-button--twitter,
+.mdl-button.a1-button--twitter:hover,
+.mdl-button.a1-button--twitter:active,
+.mdl-button.a1-button--twitter:focus:not(:active) {
+  background-color: #00acee;
+}
+
+.mdl-button.a1-button--facebook,
+.mdl-button.a1-button--facebook:hover,
+.mdl-button.a1-button--facebook:active,
+.mdl-button.a1-button--facebook:focus:not(:active) {
+  background-color: #3b5998;
+}
+
+.mdl-button.a1-button--googleplus,
+.mdl-button.a1-button--googleplus:hover,
+.mdl-button.a1-button--googleplus:active,
+.mdl-button.a1-button--googleplus:focus:not(:active) {
+  background-color: #e93f2e;
+}
+
+/* End Components */
+
 .a1-header .mdl-menu__container {
   z-index: 50;
   margin: 0 !important;
