@@ -61,7 +61,7 @@ a img {
 
 /* Components */
 
-/** Social Buttons **/
+/** Social Sharing Buttons **/
 .a1-social-buttons {
   margin: 1rem auto;
 }
@@ -144,12 +144,23 @@ a img {
   color: rgb(0, 150, 136);
 }
 
-.a1-header span {
+.a1-header .mdl-layout-title {
   padding-right: 25px;
 }
 
-.a1-social .a1-logo-image {
+.a1-header .a1-social .mdl-button {
+  min-width: 35px;
+  width: 35px;
+  height: 35px;
   margin-left: 12px;
+  color: white;
+  background-color: grey;
+}
+
+.a1-header .a1-social .a1-icon {
+  vertical-align: middle;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .a1-header .mdl-layout__drawer-button {
