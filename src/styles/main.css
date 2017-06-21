@@ -66,17 +66,32 @@ a img {
   margin: 1rem auto;
 }
 
-.mdl-button.a1-button {
+.a1-social-buttons .a1-button {
   margin: 5px 2.5px;
-  padding: 0 14px;
+  padding: 0 5px;
 }
 
-.mdl-button.a1-button:first-child {
-  margin-left: 0;
+@media (min-width: 379px) {
+  .a1-social-buttons .a1-button {
+    padding: 0 16px;
+  }
 }
 
-.mdl-button.a1-button:last-child {
-  margin-right: 0;
+@media (min-width: 430px) {
+  .a1-social-buttons .a1-button--twitter::after {
+    content: ' Twitter';
+    text-transform: uppercase;
+  }
+
+  .a1-social-buttons .a1-button--facebook::after {
+    content: ' Facebook';
+    text-transform: uppercase;
+  }
+
+  .a1-social-buttons .a1-button--googleplus::after {
+    content: ' Google+';
+    text-transform: uppercase;
+  }
 }
 
 .mdl-button.a1-button--twitter,
